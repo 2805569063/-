@@ -1,0 +1,47 @@
+{
+  "description": "项目配置文件。",
+  "packOptions": {
+    "ignore": [],
+    "include": []
+  },
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "postcss": true,
+    "minified": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    }
+  },
+  "compileType": "miniprogram",
+  "libVersion": "2.25.4",
+  "appid": "wx5402ee87d0e084d8",
+  "projectname": "yunMusic",
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "list",
+          "pathName": "/pages/list/list",
+          "query": "listId=19723756"
+        },
+        {
+          "name": "detail",
+          "pathName": "/pages/detail/detail",
+          "query": "songId=1970559943"
+        },
+        {
+          "name": "search",
+          "pathName": "pages/search/search",
+          "query": ""
+        }
+      ]
+    }
+  },
+  "editorSetting": {
+    "tabIndent": "insertSpaces",
+    "tabSize": 2
+  }
+}
